@@ -96,3 +96,6 @@ pip3 install requests
 cliente.py.
 3. Ejecute el cliente utilizando Python:
 python3 cliente.py
+
+# PARA DESCARGAR EL .JSON
+https://github.com/benoitvallon/100-best-books/blob/master/books.json
