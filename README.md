@@ -43,11 +43,11 @@ principales instrucciones para comunicarse con la API:
 
 # • Obtener todos los libros
 curl -X GET "http://localhost:8000/libros"
-• Buscar libros por autor
+# • Buscar libros por autor
 curl -X GET "http://localhost:8000/libros/autor/{autor}"
-• Buscar libros por año
+# • Buscar libros por año
 curl -X GET "http://localhost:8000/libros/ano/{ano}"
-• Agregar un nuevo libro
+# • Agregar un nuevo libro
 curl -X POST "http://localhost:8000/libros" -H "Content-Type:
 application/json" -d '{
 "author": "Nuevo Autor",
@@ -59,7 +59,6 @@ application/json" -d '{
 "title": "Nuevo Título",
 "year": 2021
 }'
-
 # • Modificar un libro existente
 curl -X PUT "http://localhost:8000/libros/Nuevo%20Título" -H
 "Content-Type: application/json" -d '{
@@ -72,7 +71,6 @@ curl -X PUT "http://localhost:8000/libros/Nuevo%20Título" -H
 "title": "Nuevo Título",
 "year": 2022
 }'
-
 # • Eliminar un libro
 curl -X DELETE "http://localhost:8000/libros/Nuevo%20Título"
 
